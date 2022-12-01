@@ -6,7 +6,7 @@ let listado = document.getElementById("contenedorShop");
 for (const busqueda of productos) {
   let contenedor = document.createElement("div");
   contenedor.innerHTML = `<div class="item1">
-    <div class="arriba"><h3>${busqueda.nombre}</h3></div>
+    <div class="arriba"><h3 id="${busqueda.posicion}">${busqueda.nombre}</h3></div>
     <div class="abajo">
       <div class="derecha">
         <img src="${busqueda.imagen}" alt="imagen minero Spider" />

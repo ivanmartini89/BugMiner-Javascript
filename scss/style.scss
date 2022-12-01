@@ -96,8 +96,38 @@ html {
     padding: 2.1px;
     right: 12px;
     top: 35px;
-   }
+   }  
 }
+.buscador {
+  display: flex;
+  margin-right: 3rem;
+  
+  #boton {
+    margin-left: 1rem;
+  }
+}
+.resultados {
+  
+  text-align: start;
+  background-color: whitesmoke;
+  position: fixed;
+  right: 10rem;
+  top: 5rem;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  
+
+  
+  li {
+    list-style: none;
+  }
+  a {
+    font-size: 1.2rem;
+    margin-left: 0;
+    
+  }
+}
+
 
   @media (max-width: 450px) {
     #intro {

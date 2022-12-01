@@ -85,6 +85,29 @@ html {
   right: 12px;
   top: 35px;
 }
+.navbar .buscador {
+  display: flex;
+  margin-right: 3rem;
+}
+.navbar .buscador #boton {
+  margin-left: 1rem;
+}
+.navbar .resultados {
+  text-align: start;
+  background-color: whitesmoke;
+  position: fixed;
+  right: 10rem;
+  top: 5rem;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+}
+.navbar .resultados li {
+  list-style: none;
+}
+.navbar .resultados a {
+  font-size: 1.2rem;
+  margin-left: 0;
+}
 @media (max-width: 450px) {
   .navbar #intro {
     height: 950px !important;
